@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: ['Montserrat', 'sans-serif'],
+        body:['Open Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
